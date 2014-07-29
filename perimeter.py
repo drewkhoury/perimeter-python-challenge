@@ -35,6 +35,7 @@ def get_distances(points):
         point_distance = get_distance(x0, y0, x1, y1)
         distances.append(point_distance)
 
+    return distances
 
 def get_distance(x0, y0, x1, y1):
     """ use pythagorean theorm to find distance between 2 points """
