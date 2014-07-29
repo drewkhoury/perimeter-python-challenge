@@ -26,10 +26,10 @@ To run script over all sample files, you can use the run.sh bash script.
 # Expected Output:
 ```
 buggy_perimeter $ clear; ./run.sh
-./sample_data/rand1.csv     187.023397585
-./sample_data/rand2.csv     214.428662739
-./sample_data/rand3.csv     167.015156938
-./sample_data/rand4.csv     1063.6164163
-./sample_data/square.csv    44.1421356237
-./sample_data/triangle.csv  13.0
+./sample_data/rand1.csv     186.905217259
+./sample_data/rand2.csv     234.704221248
+./sample_data/rand3.csv     168.23106071
+./sample_data/rand4.csv     1079.35505005
+./sample_data/square.csv    40.0
+./sample_data/triangle.csv  12.0
 ```
