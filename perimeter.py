@@ -48,7 +48,7 @@ def get_distance(x0, y0, x1, y1):
     b = y1 - y0
     c_2 = a*a + b*b
 
-    return c_2 ** (1/2)
+    return c_2 ** (.5)
 
 def main(file_name):
 
