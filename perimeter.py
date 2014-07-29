@@ -29,7 +29,7 @@ def get_distances(points):
         next_point = points[i+1]
         x0 = point[0]
         y0 = point[1]
-        x1 = next_point[1]
+        x1 = next_point[0]
         y1 = next_point[1]
 
         point_distance = get_distance(x0, y0, x1, y1)
