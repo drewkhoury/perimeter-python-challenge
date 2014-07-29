@@ -65,7 +65,7 @@ def main(file_name):
 
     length = perimiter(points)
 
-    print length
+    print round(length,4)
 
 
 if __name__ == "__main__":
