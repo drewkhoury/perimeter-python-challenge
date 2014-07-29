@@ -8,27 +8,6 @@ read a list of points from a CSV file and print out the length of the perimiter 
 
 import csv
 
-def main(file_name):
-
-    fp = open(file_name)
-    reader = csv.reader(fp)
-
-    points = []
-    for row in reader:
-        x = row[0]
-        y = row[1]
-        points.append((x,y))
-
-    length = perimiter(points)
-
-    print length
-
-
-if __name__ == "__main__":
-
-    file_name = sys.argv[0]
-    main(file_name)
-
 
 def perimiter(points):
     """ returns the length of the perimiter of some shape defined by a list of points """
@@ -64,3 +43,25 @@ def get_distance(x0, y0, x1, y1):
     c_2 = a*a + b*b
 
     return c_2 ** (1/2)
+
+def main(file_name):
+
+    fp = open(file_name)
+    reader = csv.reader(fp)
+
+    points = []
+    for row in reader:
+        x = row[0]
+        y = row[1]
+        points.append((x,y))
+
+    length = perimiter(points)
+
+    print length
+
+
+if __name__ == "__main__":
+
+    file_name = sys.argv[1]
+    main(file_name)
+
