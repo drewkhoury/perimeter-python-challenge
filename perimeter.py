@@ -55,7 +55,7 @@ def get_distances(points):
         distances.append(point_distance)
 
 
-def get_distance(x0, y1, x1, y1):
+def get_distance(x0, y0, x1, y1):
     """ use pythagorean theorm to find distance between 2 points """
     a = x1 - x2
     b = y1 - y2
