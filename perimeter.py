@@ -26,7 +26,12 @@ def get_distances(points):
     distances = []
     for i in range(len(points)):
         point = points[i]
+        
+        if i+1<len(points):
         next_point = points[i+1]
+        else:
+            next_point = points[1]
+
         x0 = point[0]
         y0 = point[1]
         x1 = next_point[0]
