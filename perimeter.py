@@ -28,7 +28,7 @@ def get_distances(points):
         point = points[i]
         
         if i+1<len(points):
-        next_point = points[i+1]
+            next_point = points[i+1]
         else:
             next_point = points[1]
 
