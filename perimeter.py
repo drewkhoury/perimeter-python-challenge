@@ -54,7 +54,8 @@ def main(file_name):
     for row in reader:
         x = row[0]
         y = row[1]
-        points.append((x,y))
+        if x != 'x':
+            points.append( ( float(x),float(y) ) )
 
     length = perimiter(points)
 
